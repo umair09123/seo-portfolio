@@ -1,5 +1,6 @@
 /* ============================================================
    Umair Tariq — Portfolio Scripts
+   Particles + 3D Tilt Effect
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -61,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
         requestAnimationFrame(animate);
     }
     animate();
-
 
     // ============================================================
     // 2. 3D TILT EFFECT (mouse-follow)
