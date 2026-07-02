@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Research — Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .cs-hero { padding: 4rem 0 2rem; border-bottom: 1px solid var(--glass-border); }
+        .cs-hero .eyebrow { margin-bottom: 1rem; }
+        .cs-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+        .cs-meta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--glass-border); border-radius: 16px; overflow: hidden; margin: 2rem 0; }
+        .cs-meta-cell { background: var(--bg); padding: 1.2rem 1.5rem; }
+        .cs-meta-cell span { display: block; font-family: var(--font-mono); font-size: 0.6rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.06em; }
+        .cs-meta-cell strong { font-family: var(--font-display); font-size: 1rem; color: var(--text); font-weight: 600; }
+        .cs-section { padding: 3rem 0; border-bottom: 1px solid var(--glass-border); }
+        .cs-section h2 { font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 1.5rem; }
+        .cs-section ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.8rem; }
+        .cs-section ul li { padding: 1rem 1.2rem; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 12px; font-size: 0.95rem; color: var(--text); padding-left: 2.5rem; position: relative; }
+        .cs-section ul li::before { content: "◆"; position: absolute; left: 1rem; top: 1rem; color: var(--signal); }
+        .back-link { display: inline-block; font-family: var(--font-mono); font-size: 0.8rem; color: var(--signal); text-decoration: none; margin-top: 2rem; }
+        .outcome-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; }
+        .outcome-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 16px; padding: 1.5rem; text-align: center; }
+        .outcome-card strong { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--signal); font-weight: 500; }
+        .outcome-card span { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+        @media (max-width: 768px) { .cs-meta-grid { grid-template-columns: repeat(2, 1fr); } .outcome-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <canvas id="particles-bg"></canvas>
 
+    <header class="nav">
+        <div class="wrap">
+            <a href="index.html" class="brand">Umair<span>.</span>Tariq</a>
+            <div class="nav-links">
+                <a href="services.html">Services</a>
+                <a href="tools.html">Tools</a>
+                <a href="index.html#case-studies">Case Studies</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="mailto:maharumair1055@gmail.com" class="nav-cta">Resume</a>
+                <a href="index.html#contact" class="nav-cta nav-cta-primary">Book a call</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="cs-hero">
+        <div class="wrap">
+            <span class="eyebrow">Case Study</span>
+            <h1>Keyword Research — Local Service Content</h1>
+            <div class="cs-meta-grid">
+                <div class="cs-meta-cell"><span>Client</span><strong>Local Service Brand (USA)</strong></div>
+                <div class="cs-meta-cell"><span>Industry</span><strong>Home Services</strong></div>
+                <div class="cs-meta-cell"><span>Duration</span><strong>2 Months</strong></div>
+                <div class="cs-meta-cell"><span>Service</span><strong>Keyword Research</strong></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cs-section"><div class="wrap"><h2>🔴 Problem</h2>
+            <ul>
+                <li>Blog had 50+ random articles with no structure</li>
+                <li>No keyword mapping — content didn't align with user intent</li>
+                <li>Low traffic (500 visitors/month)</li>
+                <li>No clear content strategy or calendar</li>
+            </ul>
+        </div></section>
+
+    <section class="cs-section"><div class="wrap"><h2>🟡 Process</h2>
+            <ul>
+                <li>Conducted keyword research using Google Keyword Planner and Ubersuggest</li>
+                <li>Grouped 212 keywords by search intent (informational, commercial, transactional)</li>
+                <li>Mapped keywords to existing content and identified gaps</li>
+                <li>Created a 6-month content calendar with 30 blog topics</li>
+                <li>Prioritized high-volume, low-competition keywords</li>
+            </ul>
+        </div></section>
+
+    <section class="cs-section"><div class="wrap"><h2>🟢 Outcome</h2>
+            <div class="outcome-grid">
+                <div class="outcome-card"><strong>212</strong><span>Keywords mapped</span></div>
+                <div class="outcome-card"><strong>+147%</strong><span>Leads from organic</span></div>
+                <div class="outcome-card"><strong>+200%</strong><span>Blog traffic</span></div>
+            </div>
+            <p style="margin-top:1.5rem;">Traffic increased from 500 to 1500 visitors/month. Leads from organic search more than doubled.</p>
+        </div></section>
+
+    <section class="cs-section" style="border-bottom:none;"><div class="wrap"><h2>📘 Learning</h2>
+            <ul>
+                <li>Intent mapping is critical — not all keywords are equal</li>
+                <li>Content gaps = opportunity gaps</li>
+                <li>A structured content calendar prevents random publishing</li>
+                <li>Low-competition keywords are gold for local businesses</li>
+            </ul>
+            <a href="index.html#case-studies" class="back-link">← Back to all case studies</a>
+        </div></section>
+    <script src="javascript.js"></script>
+</body>
+</html>
