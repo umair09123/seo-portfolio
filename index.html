@@ -1,72 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Umair Tariq — SEO Professional</title>
-  <meta name="description" content="Umair Tariq — SEO professional. On-page, off-page, technical SEO and keyword research.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #0A0E14;
-      color: #EDEFF2;
-      font-family: 'Inter', sans-serif;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .wrap { max-width: 800px; padding: 2rem; }
-    h1 {
-      font-family: 'Fraunces', serif;
-      font-size: clamp(2.5rem, 5vw, 4rem);
-      font-weight: 500;
-      margin-bottom: 0.5rem;
-    }
-    .highlight {
-      background: linear-gradient(135deg, #35D99B, #4EE6AE);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    p { color: #8B93A2; font-size: 1.2rem; margin-bottom: 2rem; }
-    .btn {
-      display: inline-block;
-      padding: 0.8rem 2rem;
-      border-radius: 100px;
-      background: #35D99B;
-      color: #06231A;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-    .btn:hover {
-      background: #4EE6AE;
-      transform: translateY(-3px);
-      box-shadow: 0 12px 40px rgba(53, 217, 155, 0.3);
-    }
-    .tag {
-      font-size: 0.8rem;
-      color: #35D99B;
-      border: 1px solid rgba(53, 217, 155, 0.2);
-      padding: 0.3rem 1rem;
-      border-radius: 100px;
-      display: inline-block;
-      margin-bottom: 1rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umair Tariq — SEO Professional</title>
+    <meta name="description" content="Umair Tariq — SEO professional. On-page, off-page, technical SEO and keyword research.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Style -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0A0E14;
+            color: #EDEFF2;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .tag {
+            display: inline-block;
+            font-family: 'Inter', monospace;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: #35D99B;
+            border: 1px solid rgba(53, 217, 155, 0.2);
+            padding: 0.4rem 1.2rem;
+            border-radius: 100px;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(2.5rem, 6vw, 4.2rem);
+            font-weight: 500;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #35D99B, #4EE6AE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #8B93A2;
+            margin-bottom: 0.5rem;
+        }
+
+        .services-tag {
+            font-size: 0.85rem;
+            color: #8B93A2;
+            margin-bottom: 2rem;
+        }
+
+        .services-tag span {
+            color: #35D99B;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.85rem 2.2rem;
+            border-radius: 100px;
+            background: #35D99B;
+            color: #06231A;
+            font-family: 'Inter', monospace;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #4EE6AE;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(53, 217, 155, 0.25);
+        }
+
+        .footer-text {
+            margin-top: 3rem;
+            font-size: 0.7rem;
+            color: #4A525F;
+            font-family: 'Inter', monospace;
+            letter-spacing: 0.04em;
+        }
+
+        .footer-text span {
+            color: #35D99B;
+        }
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <span class="tag">SEO Professional</span>
-    <h1>Hi, I'm <span class="highlight">Umair Tariq</span></h1>
-    <p>On-Page · Off-Page · Technical SEO · Keyword Research</p>
-    <a href="#" class="btn">View My Work →</a>
-  </div>
+
+    <div class="container">
+        <!-- Tag -->
+        <div class="tag">SEO Professional</div>
+
+        <!-- Heading -->
+        <h1>Hi, I'm <span class="highlight">Umair Tariq</span></h1>
+
+        <!-- Subtitle -->
+        <p class="subtitle">SEO Professional</p>
+
+        <!-- Services -->
+        <p class="services-tag">
+            <span>On-Page</span> · <span>Off-Page</span> · <span>Technical SEO</span> · <span>Keyword Research</span>
+        </p>
+
+        <!-- Button -->
+        <a href="#" class="btn">View My Work →</a>
+
+        <!-- Footer -->
+        <div class="footer-text">
+            <span>✦</span> Available for projects <span>✦</span>
+        </div>
+    </div>
+
 </body>
 </html>
