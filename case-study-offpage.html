@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Off-Page SEO — Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        .cs-hero { padding: 4rem 0 2rem; border-bottom: 1px solid var(--glass-border); }
+        .cs-hero .eyebrow { margin-bottom: 1rem; }
+        .cs-hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+        .cs-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--glass-border);
+            border-radius: 16px;
+            overflow: hidden;
+            margin: 2rem 0;
+        }
+        .cs-meta-cell { background: var(--bg); padding: 1.2rem 1.5rem; }
+        .cs-meta-cell span { display: block; font-family: var(--font-mono); font-size: 0.6rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.06em; }
+        .cs-meta-cell strong { font-family: var(--font-display); font-size: 1rem; color: var(--text); font-weight: 600; }
+        .cs-section { padding: 3rem 0; border-bottom: 1px solid var(--glass-border); }
+        .cs-section h2 { font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 1.5rem; }
+        .cs-section p { color: var(--text-muted); font-size: 1rem; max-width: 70ch; }
+        .cs-section ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.8rem; }
+        .cs-section ul li { padding: 1rem 1.2rem; background: var(--glass); border: 1px solid var(--glass-border); border-radius: 12px; font-size: 0.95rem; color: var(--text); padding-left: 2.5rem; position: relative; }
+        .cs-section ul li::before { content: "◆"; position: absolute; left: 1rem; top: 1rem; color: var(--signal); }
+        .back-link { display: inline-block; font-family: var(--font-mono); font-size: 0.8rem; color: var(--signal); text-decoration: none; margin-top: 2rem; }
+        .outcome-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; }
+        .outcome-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: 16px; padding: 1.5rem; text-align: center; }
+        .outcome-card strong { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--signal); font-weight: 500; }
+        .outcome-card span { font-family: var(--font-mono); font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+        @media (max-width: 768px) { .cs-meta-grid { grid-template-columns: repeat(2, 1fr); } .outcome-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <canvas id="particles-bg"></canvas>
 
+    <header class="nav">
+        <div class="wrap">
+            <a href="index.html" class="brand">Umair<span>.</span>Tariq</a>
+            <div class="nav-links">
+                <a href="services.html">Services</a>
+                <a href="tools.html">Tools</a>
+                <a href="index.html#case-studies">Case Studies</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="mailto:maharumair1055@gmail.com" class="nav-cta">Resume</a>
+                <a href="index.html#contact" class="nav-cta nav-cta-primary">Book a call</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="cs-hero">
+        <div class="wrap">
+            <span class="eyebrow">Case Study</span>
+            <h1>Off-Page SEO — SaaS Brand Authority</h1>
+            <div class="cs-meta-grid">
+                <div class="cs-meta-cell"><span>Client</span><strong>SaaS Brand (UK)</strong></div>
+                <div class="cs-meta-cell"><span>Industry</span><strong>Software</strong></div>
+                <div class="cs-meta-cell"><span>Duration</span><strong>4 Months</strong></div>
+                <div class="cs-meta-cell"><span>Service</span><strong>Off-Page SEO</strong></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cs-section">
+        <div class="wrap"><h2>🔴 Problem</h2>
+            <p>The client had a manual link penalty from Google due to low-quality backlinks. Domain rating dropped from 35 to 15. Organic traffic declined by 60%.</p>
+            <ul>
+                <li>Manual link penalty from Google</li>
+                <li>200+ toxic backlinks from spam sites</li>
+                <li>DR dropped from 35 to 15</li>
+                <li>60% traffic loss in 2 months</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cs-section"><div class="wrap"><h2>🟡 Process</h2>
+            <ul>
+                <li>Conducted full backlink audit using Ahrefs</li>
+                <li>Created disavow file for 200+ toxic domains</li>
+                <li>Submitted reconsideration request to Google</li>
+                <li>Built 50+ quality backlinks via guest posts</li>
+                <li>Digital PR campaign targeting industry blogs</li>
+            </ul>
+        </div></section>
+
+    <section class="cs-section"><div class="wrap"><h2>🟢 Outcome</h2>
+            <div class="outcome-grid">
+                <div class="outcome-card"><strong>+29</strong><span>Domain Rating</span></div>
+                <div class="outcome-card"><strong>+92</strong><span>Referring domains</span></div>
+                <div class="outcome-card"><strong>+50%</strong><span>Traffic recovered</span></div>
+            </div>
+            <p style="margin-top:1.5rem;">Penalty removed within 4 weeks. DR recovered to 44. Traffic back to pre-penalty levels.</p>
+        </div></section>
+
+    <section class="cs-section" style="border-bottom:none;"><div class="wrap"><h2>📘 Learning</h2>
+            <ul>
+                <li>Regular backlink audits prevent penalties</li>
+                <li>Quality over quantity — 10 good backlinks > 100 spam</li>
+                <li>Digital PR builds brand authority naturally</li>
+                <li>Disavow tool works if used correctly</li>
+            </ul>
+            <a href="index.html#case-studies" class="back-link">← Back to all case studies</a>
+        </div></section>
+    <script src="javascript.js"></script>
+</body>
+</html>
